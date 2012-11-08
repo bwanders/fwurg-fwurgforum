@@ -1,0 +1,8 @@
+base fwurgforum
+author Brend Wanders
+email b.wanders@xs4all.nl
+date 2012-11-08
+name FWURG Forum Integration
+desc Adds FWURG forum customizations.
+url http://fwurg.xs4all.nl/dokuwiki/user:brend
+
