@@ -61,7 +61,7 @@ class plugin_strata_type_forum extends plugin_strata_type {
 
     function getInfo() {
         return array(
-            'desc'=>'Links to the FWURG forum by thread id.',
+            'desc'=>'Links to the FWURG forum by thread id. (Refer to post with \'topic#post\'.)',
             'tags'=>array('numeric')
         );
     }
