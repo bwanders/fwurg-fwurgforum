@@ -47,7 +47,7 @@ class plugin_strata_type_forum extends plugin_strata_type {
 						} else {
 							global $phpbb_root_path, $phpEx;
 							$topic = $topics[0];
-							$link = "http://www.fwurg.net/phpbb/viewtopic.$phpEx?f={$topic['forum_id']}&t={$topic['topic_id']}";
+							$link = "//www.fwurg.net/phpbb/viewtopic.$phpEx?f={$topic['forum_id']}&t={$topic['topic_id']}";
 							if(!empty($post)) $link .= "&p=$post#p$post";
 							$title = html_entity_decode($topic['topic_title']);
 							$R->externallink($link,$title);
